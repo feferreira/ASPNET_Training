@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:z80dpc-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -383,14 +382,6 @@ Wire Wire Line
 	7050 5600 6700 5600
 Wire Wire Line
 	7050 3500 6700 3500
-Text Label 7650 5100 0    50   ~ 0
-RD
-Text Label 7650 5000 0    50   ~ 0
-WR
-Text Label 7600 5500 0    50   ~ 0
-MREQ
-Text Label 7650 5600 0    50   ~ 0
-IORQ
 Text Label 6800 3500 0    50   ~ 0
 CLK
 Text Label 3450 2550 0    50   ~ 0
@@ -443,98 +434,6 @@ Wire Wire Line
 	4400 1250 4400 1950
 Wire Wire Line
 	4400 5550 4400 4950
-Wire Wire Line
-	7900 3400 7550 3400
-Wire Wire Line
-	7900 3300 7550 3300
-Wire Wire Line
-	7900 3200 7550 3200
-Wire Wire Line
-	7900 3100 7550 3100
-Wire Wire Line
-	7900 3000 7550 3000
-Wire Wire Line
-	7900 2900 7550 2900
-Wire Wire Line
-	7900 2800 7550 2800
-Wire Wire Line
-	7900 2700 7550 2700
-Wire Wire Line
-	7900 2600 7550 2600
-Wire Wire Line
-	7900 2500 7550 2500
-Wire Wire Line
-	7900 2400 7550 2400
-Wire Wire Line
-	7900 2300 7550 2300
-Wire Wire Line
-	7900 2200 7550 2200
-Wire Wire Line
-	7900 2100 7550 2100
-Wire Wire Line
-	7900 2000 7550 2000
-Wire Wire Line
-	7900 1900 7550 1900
-Text Label 7800 3400 2    50   ~ 0
-A0
-Text Label 7800 3300 2    50   ~ 0
-A1
-Text Label 7800 3200 2    50   ~ 0
-A2
-Text Label 7800 3100 2    50   ~ 0
-A3
-Text Label 7800 3000 2    50   ~ 0
-A4
-Text Label 7800 2900 2    50   ~ 0
-A5
-Text Label 7800 2800 2    50   ~ 0
-A6
-Text Label 7800 2700 2    50   ~ 0
-A7
-Text Label 7800 2600 2    50   ~ 0
-A8
-Text Label 7800 2500 2    50   ~ 0
-A9
-Text Label 7800 2400 2    50   ~ 0
-A10
-Text Label 7800 2300 2    50   ~ 0
-A11
-Text Label 7800 2200 2    50   ~ 0
-A12
-Text Label 7800 2100 2    50   ~ 0
-A13
-Text Label 7800 2000 2    50   ~ 0
-A14
-Text Label 7800 1900 2    50   ~ 0
-A15
-Wire Wire Line
-	7900 4400 7550 4400
-Wire Wire Line
-	7900 4500 7550 4500
-Wire Wire Line
-	7900 4600 7550 4600
-Wire Wire Line
-	7900 4700 7550 4700
-Wire Wire Line
-	7900 4800 7550 4800
-Wire Wire Line
-	7900 4900 7550 4900
-Wire Wire Line
-	7900 5000 7550 5000
-Wire Wire Line
-	7900 5100 7550 5100
-Wire Wire Line
-	7900 5200 7550 5200
-Wire Wire Line
-	7900 5300 7550 5300
-Wire Wire Line
-	7900 5400 7550 5400
-Wire Wire Line
-	7900 5500 7550 5500
-Wire Wire Line
-	7900 5600 7550 5600
-Wire Wire Line
-	7900 3500 7550 3500
 Text Label 6800 5100 0    50   ~ 0
 RD
 Text Label 6800 5000 0    50   ~ 0
@@ -543,26 +442,6 @@ Text Label 6800 5500 0    50   ~ 0
 MREQ
 Text Label 6800 5600 0    50   ~ 0
 IORQ
-Text Label 7650 3500 0    50   ~ 0
-CLK
-Text Label 7650 5300 0    50   ~ 0
-NMI
-Text Label 7650 5200 0    50   ~ 0
-INT
-Text Label 7650 4700 0    50   ~ 0
-BUSRQ
-Text Label 7600 4900 0    50   ~ 0
-BUSACK
-Text Label 7650 4500 0    50   ~ 0
-M1
-Text Label 7650 4400 0    50   ~ 0
-RFSH
-Text Label 7650 4800 0    50   ~ 0
-WAIT
-Text Label 7650 5400 0    50   ~ 0
-HALT
-Text Label 7650 4600 0    50   ~ 0
-RESET
 $Comp
 L power:+5V #PWR06
 U 1 1 5D3714DB
@@ -599,7 +478,7 @@ U 1 1 5D388DE2
 P 5750 5800
 F 0 "C1" H 5865 5846 50  0000 L CNN
 F 1 "C" H 5865 5755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 5788 5650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 5650 50  0001 C CNN
 F 3 "~" H 5750 5800 50  0001 C CNN
 	1    5750 5800
 	1    0    0    -1  
@@ -677,36 +556,42 @@ Text Label 6800 3700 0    50   ~ 0
 D6
 Text Label 6800 3600 0    50   ~ 0
 D7
-Wire Wire Line
-	7550 4300 7900 4300
-Wire Wire Line
-	7550 4200 7900 4200
-Wire Wire Line
-	7550 4100 7900 4100
-Wire Wire Line
-	7550 4000 7900 4000
-Wire Wire Line
-	7550 3900 7900 3900
-Wire Wire Line
-	7550 3800 7900 3800
-Wire Wire Line
-	7550 3700 7900 3700
-Wire Wire Line
-	7550 3600 7900 3600
-Text Label 7650 4300 0    50   ~ 0
-D0
-Text Label 7650 4200 0    50   ~ 0
-D1
-Text Label 7650 4100 0    50   ~ 0
-D2
-Text Label 7650 4000 0    50   ~ 0
-D3
-Text Label 7650 3900 0    50   ~ 0
-D4
-Text Label 7650 3800 0    50   ~ 0
-D5
-Text Label 7650 3700 0    50   ~ 0
-D6
-Text Label 7650 3600 0    50   ~ 0
-D7
+NoConn ~ 7550 1900
+NoConn ~ 7550 2000
+NoConn ~ 7550 2100
+NoConn ~ 7550 2200
+NoConn ~ 7550 2300
+NoConn ~ 7550 2400
+NoConn ~ 7550 2500
+NoConn ~ 7550 2600
+NoConn ~ 7550 2700
+NoConn ~ 7550 2800
+NoConn ~ 7550 2900
+NoConn ~ 7550 3000
+NoConn ~ 7550 3100
+NoConn ~ 7550 3200
+NoConn ~ 7550 3300
+NoConn ~ 7550 3400
+NoConn ~ 7550 3500
+NoConn ~ 7550 3600
+NoConn ~ 7550 3700
+NoConn ~ 7550 3800
+NoConn ~ 7550 3900
+NoConn ~ 7550 4000
+NoConn ~ 7550 4100
+NoConn ~ 7550 4200
+NoConn ~ 7550 4300
+NoConn ~ 7550 4400
+NoConn ~ 7550 4500
+NoConn ~ 7550 4600
+NoConn ~ 7550 4700
+NoConn ~ 7550 4800
+NoConn ~ 7550 4900
+NoConn ~ 7550 5000
+NoConn ~ 7550 5100
+NoConn ~ 7550 5200
+NoConn ~ 7550 5300
+NoConn ~ 7550 5400
+NoConn ~ 7550 5500
+NoConn ~ 7550 5600
 $EndSCHEMATC
