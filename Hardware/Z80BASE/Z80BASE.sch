@@ -13,38 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2750 3350 2400 3350
-Wire Wire Line
-	2750 3250 2400 3250
-Wire Wire Line
-	2750 3150 2400 3150
-Wire Wire Line
-	2750 3050 2400 3050
-Wire Wire Line
-	2750 2950 2400 2950
-Wire Wire Line
-	2750 2850 2400 2850
-Wire Wire Line
-	2750 2750 2400 2750
-Wire Wire Line
-	2750 2650 2400 2650
-Wire Wire Line
-	2750 2550 2400 2550
-Wire Wire Line
-	2750 2450 2400 2450
-Wire Wire Line
-	2750 2350 2400 2350
-Wire Wire Line
-	2750 2250 2400 2250
-Wire Wire Line
-	2750 2150 2400 2150
-Wire Wire Line
-	2750 2050 2400 2050
-Wire Wire Line
-	2750 1950 2400 1950
-Wire Wire Line
-	2750 1850 2400 1850
 Text Label 2650 3350 2    50   ~ 0
 A0
 Text Label 2650 3250 2    50   ~ 0
@@ -77,34 +45,6 @@ Text Label 2650 1950 2    50   ~ 0
 A14
 Text Label 2650 1850 2    50   ~ 0
 A15
-Wire Wire Line
-	2750 4350 2400 4350
-Wire Wire Line
-	2750 4450 2400 4450
-Wire Wire Line
-	2750 4550 2400 4550
-Wire Wire Line
-	2750 4650 2400 4650
-Wire Wire Line
-	2750 4750 2400 4750
-Wire Wire Line
-	2750 4850 2400 4850
-Wire Wire Line
-	2750 4950 2400 4950
-Wire Wire Line
-	2750 5050 2400 5050
-Wire Wire Line
-	2750 5150 2400 5150
-Wire Wire Line
-	2750 5250 2400 5250
-Wire Wire Line
-	2750 5350 2400 5350
-Wire Wire Line
-	2750 5450 2400 5450
-Wire Wire Line
-	2750 5550 2400 5550
-Wire Wire Line
-	2750 3450 2400 3450
 Text Label 3350 5050 0    50   ~ 0
 RD
 Text Label 3350 4950 0    50   ~ 0
@@ -253,22 +193,6 @@ Text Label 3350 5350 0    50   ~ 0
 HALT
 Text Label 3350 4550 0    50   ~ 0
 RESET
-Wire Wire Line
-	2400 4250 2750 4250
-Wire Wire Line
-	2400 4150 2750 4150
-Wire Wire Line
-	2400 4050 2750 4050
-Wire Wire Line
-	2400 3950 2750 3950
-Wire Wire Line
-	2400 3850 2750 3850
-Wire Wire Line
-	2400 3750 2750 3750
-Wire Wire Line
-	2400 3650 2750 3650
-Wire Wire Line
-	2400 3550 2750 3550
 Text Label 2500 4250 0    50   ~ 0
 D0
 Text Label 2500 4150 0    50   ~ 0
@@ -290,8 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4150 3600 4150
 Wire Wire Line
-	3250 4050 3600 4050
-Wire Wire Line
 	3250 3950 3600 3950
 Wire Wire Line
 	3250 3850 3600 3850
@@ -299,8 +221,6 @@ Wire Wire Line
 	3250 3750 3600 3750
 Wire Wire Line
 	3250 3650 3600 3650
-Wire Wire Line
-	3250 3550 3600 3550
 Text Label 3350 4250 0    50   ~ 0
 D0
 Text Label 3350 4150 0    50   ~ 0
@@ -620,8 +540,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 4150 4250 4150
 Wire Wire Line
-	3900 4050 4250 4050
-Wire Wire Line
 	3900 3950 4250 3950
 Wire Wire Line
 	3900 3850 4250 3850
@@ -629,8 +547,6 @@ Wire Wire Line
 	3900 3750 4250 3750
 Wire Wire Line
 	3900 3650 4250 3650
-Wire Wire Line
-	3900 3550 4250 3550
 Text Label 4000 4250 0    50   ~ 0
 D0
 Text Label 4000 4150 0    50   ~ 0
@@ -652,8 +568,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 4150 5100 4150
 Wire Wire Line
-	4750 4050 5100 4050
-Wire Wire Line
 	4750 3950 5100 3950
 Wire Wire Line
 	4750 3850 5100 3850
@@ -661,8 +575,6 @@ Wire Wire Line
 	4750 3750 5100 3750
 Wire Wire Line
 	4750 3650 5100 3650
-Wire Wire Line
-	4750 3550 5100 3550
 Text Label 4850 4250 0    50   ~ 0
 D0
 Text Label 4850 4150 0    50   ~ 0
@@ -1696,13 +1608,13 @@ RESET
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J5
 U 1 1 5D714268
-P 8800 3750
-F 0 "J5" H 8850 5867 50  0000 C CNN
-F 1 "Conn_02x40_Odd_Even" H 8850 5776 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 8800 3750 50  0001 C CNN
-F 3 "~" H 8800 3750 50  0001 C CNN
-	1    8800 3750
-	1    0    0    -1  
+P 8900 3850
+F 0 "J5" H 8950 5967 50  0000 C CNN
+F 1 "Conn_02x40_Odd_Even" H 8950 5876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x40_P2.54mm_Horizontal" H 8900 3850 50  0001 C CNN
+F 3 "~" H 8900 3850 50  0001 C CNN
+	1    8900 3850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8250 4250 8600 4250
@@ -1816,16 +1728,104 @@ Wire Wire Line
 Connection ~ 8500 5650
 Wire Wire Line
 	8500 5650 8150 5650
+Wire Wire Line
+	2750 5350 2400 5350
+Wire Wire Line
+	2750 1850 2400 1850
+Wire Wire Line
+	2750 1950 2400 1950
+Wire Wire Line
+	2750 2050 2400 2050
+Wire Wire Line
+	2750 2150 2400 2150
+Wire Wire Line
+	2750 2250 2400 2250
+Wire Wire Line
+	2750 2350 2400 2350
+Wire Wire Line
+	2750 2450 2400 2450
+Wire Wire Line
+	2750 2550 2400 2550
+Wire Wire Line
+	2750 2650 2400 2650
+Wire Wire Line
+	2750 2750 2400 2750
+Wire Wire Line
+	2750 5450 2400 5450
+Wire Wire Line
+	2750 2850 2400 2850
+Wire Wire Line
+	2750 2950 2400 2950
+Wire Wire Line
+	2750 3050 2400 3050
+Wire Wire Line
+	2750 3150 2400 3150
+Wire Wire Line
+	2750 3250 2400 3250
+Wire Wire Line
+	2750 3350 2400 3350
+Wire Wire Line
+	2750 3450 2400 3450
+Wire Wire Line
+	2400 3650 2750 3650
+Wire Wire Line
+	2400 3750 2750 3750
+Wire Wire Line
+	2750 5550 2400 5550
+Wire Wire Line
+	2400 3850 2750 3850
+Wire Wire Line
+	2400 3950 2750 3950
+Wire Wire Line
+	2400 4150 2750 4150
+Wire Wire Line
+	2400 4250 2750 4250
+Wire Wire Line
+	2750 4350 2400 4350
+Wire Wire Line
+	2750 4450 2400 4450
+Wire Wire Line
+	2750 4550 2400 4550
+Wire Wire Line
+	2750 4650 2400 4650
+Wire Wire Line
+	2750 4750 2400 4750
+Wire Wire Line
+	2750 4850 2400 4850
+Wire Wire Line
+	2750 4950 2400 4950
+Wire Wire Line
+	2750 5050 2400 5050
+Wire Wire Line
+	2750 5150 2400 5150
+Wire Wire Line
+	2750 5250 2400 5250
 Connection ~ 2750 5750
+Wire Wire Line
+	2400 4050 2750 4050
+Wire Wire Line
+	2400 3550 2750 3550
+Wire Wire Line
+	3250 4050 3600 4050
+Wire Wire Line
+	3250 3550 3600 3550
+Wire Wire Line
+	4750 4050 5100 4050
+Wire Wire Line
+	3900 4050 4250 4050
+Wire Wire Line
+	3900 3550 4250 3550
+Wire Wire Line
+	4750 3550 5100 3550
 $Comp
 L Connector_Generic:Conn_02x40_Odd_Even J1
 U 1 1 5D3AFB9E
-P 2950 3750
-F 0 "J1" H 3000 5867 50  0000 C CNN
-F 1 "Conn_02x40_Odd_Even" H 3000 5776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Horizontal" H 2950 3750 50  0001 C CNN
-F 3 "~" H 2950 3750 50  0001 C CNN
-	1    2950 3750
-	1    0    0    -1  
+P 3050 3850
+F 0 "J1" H 3100 5967 50  0000 C CNN
+F 1 "Conn_02x40_Odd_Even" H 3100 5876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Horizontal" H 3050 3850 50  0001 C CNN
+F 3 "~" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
