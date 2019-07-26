@@ -252,14 +252,6 @@ Wire Wire Line
 	5450 7100 5100 7100
 Wire Wire Line
 	5450 5000 5100 5000
-Text Label 6050 6600 0    50   ~ 0
-RD
-Text Label 6050 6500 0    50   ~ 0
-WR
-Text Label 6000 7000 0    50   ~ 0
-MREQ
-Text Label 6050 7100 0    50   ~ 0
-IORQ
 Text Label 5200 5000 0    50   ~ 0
 CLK
 Text Label 700  5150 0    50   ~ 0
@@ -288,98 +280,6 @@ Text Label 5200 6900 0    50   ~ 0
 HALT
 Text Label 5200 6100 0    50   ~ 0
 RESET
-Wire Wire Line
-	6300 4900 5950 4900
-Wire Wire Line
-	6300 4800 5950 4800
-Wire Wire Line
-	6300 4700 5950 4700
-Wire Wire Line
-	6300 4600 5950 4600
-Wire Wire Line
-	6300 4500 5950 4500
-Wire Wire Line
-	6300 4400 5950 4400
-Wire Wire Line
-	6300 4300 5950 4300
-Wire Wire Line
-	6300 4200 5950 4200
-Wire Wire Line
-	6300 4100 5950 4100
-Wire Wire Line
-	6300 4000 5950 4000
-Wire Wire Line
-	6300 3900 5950 3900
-Wire Wire Line
-	6300 3800 5950 3800
-Wire Wire Line
-	6300 3700 5950 3700
-Wire Wire Line
-	6300 3600 5950 3600
-Wire Wire Line
-	6300 3500 5950 3500
-Wire Wire Line
-	6300 3400 5950 3400
-Text Label 6200 4900 2    50   ~ 0
-A0
-Text Label 6200 4800 2    50   ~ 0
-A1
-Text Label 6200 4700 2    50   ~ 0
-A2
-Text Label 6200 4600 2    50   ~ 0
-A3
-Text Label 6200 4500 2    50   ~ 0
-A4
-Text Label 6200 4400 2    50   ~ 0
-A5
-Text Label 6200 4300 2    50   ~ 0
-A6
-Text Label 6200 4200 2    50   ~ 0
-A7
-Text Label 6200 4100 2    50   ~ 0
-A8
-Text Label 6200 4000 2    50   ~ 0
-A9
-Text Label 6200 3900 2    50   ~ 0
-A10
-Text Label 6200 3800 2    50   ~ 0
-A11
-Text Label 6200 3700 2    50   ~ 0
-A12
-Text Label 6200 3600 2    50   ~ 0
-A13
-Text Label 6200 3500 2    50   ~ 0
-A14
-Text Label 6200 3400 2    50   ~ 0
-A15
-Wire Wire Line
-	6300 5900 5950 5900
-Wire Wire Line
-	6300 6000 5950 6000
-Wire Wire Line
-	6300 6100 5950 6100
-Wire Wire Line
-	6300 6200 5950 6200
-Wire Wire Line
-	6300 6300 5950 6300
-Wire Wire Line
-	6300 6400 5950 6400
-Wire Wire Line
-	6300 6500 5950 6500
-Wire Wire Line
-	6300 6600 5950 6600
-Wire Wire Line
-	6300 6700 5950 6700
-Wire Wire Line
-	6300 6800 5950 6800
-Wire Wire Line
-	6300 6900 5950 6900
-Wire Wire Line
-	6300 7000 5950 7000
-Wire Wire Line
-	6300 7100 5950 7100
-Wire Wire Line
-	6300 5000 5950 5000
 Text Label 5200 6600 0    50   ~ 0
 RD
 Text Label 5200 6500 0    50   ~ 0
@@ -388,26 +288,6 @@ Text Label 5200 7000 0    50   ~ 0
 MREQ
 Text Label 5200 7100 0    50   ~ 0
 IORQ
-Text Label 6050 5000 0    50   ~ 0
-CLK
-Text Label 6050 6800 0    50   ~ 0
-NMI
-Text Label 6050 6700 0    50   ~ 0
-INT
-Text Label 6050 6200 0    50   ~ 0
-BUSRQ
-Text Label 6000 6400 0    50   ~ 0
-BUSACK
-Text Label 6050 6000 0    50   ~ 0
-M1
-Text Label 6050 5900 0    50   ~ 0
-RFSH
-Text Label 6050 6300 0    50   ~ 0
-WAIT
-Text Label 6050 6900 0    50   ~ 0
-HALT
-Text Label 6050 6100 0    50   ~ 0
-RESET
 $Comp
 L power:+5V #PWR017
 U 1 1 5D3714DB
@@ -476,38 +356,6 @@ D5
 Text Label 5200 5200 0    50   ~ 0
 D6
 Text Label 5200 5100 0    50   ~ 0
-D7
-Wire Wire Line
-	5950 5800 6300 5800
-Wire Wire Line
-	5950 5700 6300 5700
-Wire Wire Line
-	5950 5600 6300 5600
-Wire Wire Line
-	5950 5500 6300 5500
-Wire Wire Line
-	5950 5400 6300 5400
-Wire Wire Line
-	5950 5300 6300 5300
-Wire Wire Line
-	5950 5200 6300 5200
-Wire Wire Line
-	5950 5100 6300 5100
-Text Label 6050 5800 0    50   ~ 0
-D0
-Text Label 6050 5700 0    50   ~ 0
-D1
-Text Label 6050 5600 0    50   ~ 0
-D2
-Text Label 6050 5500 0    50   ~ 0
-D3
-Text Label 6050 5400 0    50   ~ 0
-D4
-Text Label 6050 5300 0    50   ~ 0
-D5
-Text Label 6050 5200 0    50   ~ 0
-D6
-Text Label 6050 5100 0    50   ~ 0
 D7
 $Comp
 L Device:LED D1
@@ -1868,4 +1716,42 @@ F 3 "~" H 3150 5750 50  0001 C CNN
 	1    3150 5750
 	0    1    -1   0   
 $EndComp
+NoConn ~ 5950 3400
+NoConn ~ 5950 3500
+NoConn ~ 5950 3600
+NoConn ~ 5950 3700
+NoConn ~ 5950 3800
+NoConn ~ 5950 3900
+NoConn ~ 5950 4000
+NoConn ~ 5950 4100
+NoConn ~ 5950 4200
+NoConn ~ 5950 4300
+NoConn ~ 5950 4400
+NoConn ~ 5950 4500
+NoConn ~ 5950 4600
+NoConn ~ 5950 4700
+NoConn ~ 5950 4800
+NoConn ~ 5950 4900
+NoConn ~ 5950 5000
+NoConn ~ 5950 5100
+NoConn ~ 5950 5200
+NoConn ~ 5950 5300
+NoConn ~ 5950 5400
+NoConn ~ 5950 5500
+NoConn ~ 5950 5600
+NoConn ~ 5950 5700
+NoConn ~ 5950 5800
+NoConn ~ 5950 5900
+NoConn ~ 5950 6000
+NoConn ~ 5950 6100
+NoConn ~ 5950 6200
+NoConn ~ 5950 6300
+NoConn ~ 5950 6400
+NoConn ~ 5950 6500
+NoConn ~ 5950 6600
+NoConn ~ 5950 6700
+NoConn ~ 5950 6800
+NoConn ~ 5950 6900
+NoConn ~ 5950 7000
+NoConn ~ 5950 7100
 $EndSCHEMATC
