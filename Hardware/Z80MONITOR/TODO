@@ -1,0 +1,11 @@
+MCU: PIC18F87K22
+
+interfaces:
+
+address bus: 16 lines
+data bus: 8 lines
+control bus: 12
+clock: 1
+reset: 1
+
+serial: 1

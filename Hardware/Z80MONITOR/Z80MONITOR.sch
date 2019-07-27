@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10000 2350 9650 2350
+Wire Wire Line
+	10000 2250 9650 2250
+Wire Wire Line
+	10000 2150 9650 2150
+Wire Wire Line
+	10000 2050 9650 2050
+Wire Wire Line
+	10000 1950 9650 1950
+Wire Wire Line
+	10000 1850 9650 1850
+Wire Wire Line
+	10000 1750 9650 1750
+Wire Wire Line
+	10000 1650 9650 1650
+Wire Wire Line
+	10000 1550 9650 1550
+Wire Wire Line
+	10000 1450 9650 1450
+Wire Wire Line
+	10000 1350 9650 1350
+Wire Wire Line
+	10000 1250 9650 1250
+Wire Wire Line
+	10000 1150 9650 1150
+Wire Wire Line
+	10000 1050 9650 1050
+Wire Wire Line
+	10000 950  9650 950 
+Wire Wire Line
+	10000 850  9650 850 
+Text Label 9900 2350 2    50   ~ 0
+A0
+Text Label 9900 2250 2    50   ~ 0
+A1
+Text Label 9900 2150 2    50   ~ 0
+A2
+Text Label 9900 2050 2    50   ~ 0
+A3
+Text Label 9900 1950 2    50   ~ 0
+A4
+Text Label 9900 1850 2    50   ~ 0
+A5
+Text Label 9900 1750 2    50   ~ 0
+A6
+Text Label 9900 1650 2    50   ~ 0
+A7
+Text Label 9900 1550 2    50   ~ 0
+A8
+Text Label 9900 1450 2    50   ~ 0
+A9
+Text Label 9900 1350 2    50   ~ 0
+A10
+Text Label 9900 1250 2    50   ~ 0
+A11
+Text Label 9900 1150 2    50   ~ 0
+A12
+Text Label 9900 1050 2    50   ~ 0
+A13
+Text Label 9900 950  2    50   ~ 0
+A14
+Text Label 9900 850  2    50   ~ 0
+A15
+$Comp
+L power:GND #PWR013
+U 1 1 5D2CFD06
+P 9150 5000
+F 0 "#PWR013" H 9150 4750 50  0001 C CNN
+F 1 "GND" H 9155 4827 50  0000 C CNN
+F 2 "" H 9150 5000 50  0001 C CNN
+F 3 "" H 9150 5000 50  0001 C CNN
+	1    9150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5D2D01D5
+P 9150 4550
+F 0 "#PWR012" H 9150 4400 50  0001 C CNN
+F 1 "+5V" H 9165 4723 50  0000 C CNN
+F 2 "" H 9150 4550 50  0001 C CNN
+F 3 "" H 9150 4550 50  0001 C CNN
+	1    9150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4650 10000 4650
+Wire Wire Line
+	10000 4750 9150 4750
+Wire Wire Line
+	10000 3350 9650 3350
+Wire Wire Line
+	10000 3450 9650 3450
+Wire Wire Line
+	10000 3550 9650 3550
+Wire Wire Line
+	10000 3650 9650 3650
+Wire Wire Line
+	10000 3750 9650 3750
+Wire Wire Line
+	10000 3850 9650 3850
+Wire Wire Line
+	10000 3950 9650 3950
+Wire Wire Line
+	10000 4050 9650 4050
+Wire Wire Line
+	10000 4150 9650 4150
+Wire Wire Line
+	10000 4250 9650 4250
+Wire Wire Line
+	10000 4350 9650 4350
+Wire Wire Line
+	10000 4450 9650 4450
+Wire Wire Line
+	10000 4550 9650 4550
+Wire Wire Line
+	10000 2450 9650 2450
+Text Label 9750 2450 0    50   ~ 0
+CLK
+Text Label 9750 4250 0    50   ~ 0
+NMI
+Text Label 9750 4150 0    50   ~ 0
+INT
+Text Label 9750 3650 0    50   ~ 0
+BUSRQ
+Text Label 9700 3850 0    50   ~ 0
+BUSACK
+Text Label 9750 3450 0    50   ~ 0
+M1
+Text Label 9750 3350 0    50   ~ 0
+RFSH
+Text Label 9750 3750 0    50   ~ 0
+WAIT
+Text Label 9750 4350 0    50   ~ 0
+HALT
+Text Label 9750 3550 0    50   ~ 0
+RESET
+Text Label 9750 4050 0    50   ~ 0
+RD
+Text Label 9750 3950 0    50   ~ 0
+WR
+Text Label 9750 4450 0    50   ~ 0
+MREQ
+Text Label 9750 4550 0    50   ~ 0
+IORQ
+$Comp
+L power:+5V #PWR017
+U 1 1 5D3714DB
+P 11000 4500
+F 0 "#PWR017" H 11000 4350 50  0001 C CNN
+F 1 "+5V" H 11015 4673 50  0000 C CNN
+F 2 "" H 11000 4500 50  0001 C CNN
+F 3 "" H 11000 4500 50  0001 C CNN
+	1    11000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5D37197A
+P 11000 4900
+F 0 "#PWR018" H 11000 4650 50  0001 C CNN
+F 1 "GND" H 11005 4727 50  0000 C CNN
+F 2 "" H 11000 4900 50  0001 C CNN
+F 3 "" H 11000 4900 50  0001 C CNN
+	1    11000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 4650 11000 4500
+Wire Wire Line
+	11000 4750 11000 4900
+$Comp
+L Connector_Generic:Conn_02x40_Odd_Even J1
+U 1 1 5D3AFB9E
+P 10200 2750
+F 0 "J1" H 10250 4867 50  0000 C CNN
+F 1 "Conn_02x40_Odd_Even" H 10250 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Horizontal" H 10200 2750 50  0001 C CNN
+F 3 "~" H 10200 2750 50  0001 C CNN
+	1    10200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3250 10000 3250
+Wire Wire Line
+	9650 3150 10000 3150
+Wire Wire Line
+	9650 3050 10000 3050
+Wire Wire Line
+	9650 2950 10000 2950
+Wire Wire Line
+	9650 2850 10000 2850
+Wire Wire Line
+	9650 2750 10000 2750
+Wire Wire Line
+	9650 2650 10000 2650
+Wire Wire Line
+	9650 2550 10000 2550
+Text Label 9750 3250 0    50   ~ 0
+D0
+Text Label 9750 3150 0    50   ~ 0
+D1
+Text Label 9750 3050 0    50   ~ 0
+D2
+Text Label 9750 2950 0    50   ~ 0
+D3
+Text Label 9750 2850 0    50   ~ 0
+D4
+Text Label 9750 2750 0    50   ~ 0
+D5
+Text Label 9750 2650 0    50   ~ 0
+D6
+Text Label 9750 2550 0    50   ~ 0
+D7
+Wire Wire Line
+	10500 4650 11000 4650
+Wire Wire Line
+	11000 4750 10500 4750
+Wire Wire Line
+	9150 4550 9150 4650
+Wire Wire Line
+	9150 4750 9150 5000
+NoConn ~ 10500 850 
+NoConn ~ 10500 950 
+NoConn ~ 10500 1050
+NoConn ~ 10500 1150
+NoConn ~ 10500 1250
+NoConn ~ 10500 1350
+NoConn ~ 10500 1450
+NoConn ~ 10500 1550
+NoConn ~ 10500 1650
+NoConn ~ 10500 1750
+NoConn ~ 10500 1850
+NoConn ~ 10500 1950
+NoConn ~ 10500 2050
+NoConn ~ 10500 2150
+NoConn ~ 10500 2250
+NoConn ~ 10500 2350
+NoConn ~ 10500 2450
+NoConn ~ 10500 2550
+NoConn ~ 10500 2650
+NoConn ~ 10500 2750
+NoConn ~ 10500 2850
+NoConn ~ 10500 2950
+NoConn ~ 10500 3050
+NoConn ~ 10500 3150
+NoConn ~ 10500 3250
+NoConn ~ 10500 3350
+NoConn ~ 10500 3450
+NoConn ~ 10500 3550
+NoConn ~ 10500 3650
+NoConn ~ 10500 3750
+NoConn ~ 10500 3850
+NoConn ~ 10500 3950
+NoConn ~ 10500 4050
+NoConn ~ 10500 4150
+NoConn ~ 10500 4250
+NoConn ~ 10500 4350
+NoConn ~ 10500 4450
+NoConn ~ 10500 4550
+$Comp
+L MCU_Microchip_PIC18:PIC18F87K22-xPT U?
+U 1 1 5D436490
+P 3200 3900
+F 0 "U?" H 3200 1111 50  0000 C CNN
+F 1 "PIC18F87K22-xPT" H 3200 1020 50  0000 C CNN
+F 2 "Package_QFP:TQFP-80_12x12mm_P0.5mm" H 4300 1250 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/39960d.pdf" H 2550 3400 50  0001 C CNN
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
